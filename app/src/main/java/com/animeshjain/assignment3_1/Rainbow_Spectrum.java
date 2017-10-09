@@ -8,6 +8,6 @@ public class Rainbow_Spectrum extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_rainbow__spectrum);
+        setContentView(R.layout.rainbow);
     }
 }
