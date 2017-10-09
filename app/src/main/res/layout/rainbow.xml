@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="7">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:background="#ff0000"
+        android:text="RED"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:text="Orange"
+        android:background="#ff7f00"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:text="Yellow"
+        android:background="#ffff00"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:text="Green"
+        android:background="#00ff00"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText5"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:text="Blue"
+        android:background="#0000ff"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText6"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:text="Indigo"
+        android:layout_weight="1"
+        android:background="#4B0082"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText7"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:text="Violet"
+        android:layout_weight="1"
+        android:background="#9400D3"/>
+</LinearLayout>
